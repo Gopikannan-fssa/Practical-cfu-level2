@@ -1,0 +1,80 @@
+body {
+  width: 1440px;
+  height: auto;
+  background-color: hsl(217, 54%, 11%);
+  margin: 100px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  gap: 80px;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  border-radius: 10px;
+  height: 560px;
+}
+.main-img {
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  border-radius: 35px;
+}
+.first-txt {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  margin-left: 27px;
+  margin-bottom: 15px;
+}
+.sec-txt {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  margin-left: 25px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.logo-container {
+  display: flex;
+
+  margin-left: 25px;
+  gap: 100px;
+}
+.logo {
+  font-family: "Outfit", sans-serif;
+
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+.logo2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+
+  margin-bottom: 20px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+.icon-container {
+  display: flex;
+  border-top: 2px solid hsl(215, 51%, 70%);
+  padding-top: 10px;
+}
+.creation {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 50px;
+}
+.wyvern {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 50px;
+}
